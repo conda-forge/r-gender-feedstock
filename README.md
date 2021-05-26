@@ -5,11 +5,9 @@ Home: https://docs.ropensci.org/gender/, https://github.com/ropensci/gender
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gender-feedstock/blob/master/LICENSE.txt)
 
 Summary: Infers state-recorded gender categories from first names and dates of birth using historical datasets. By using these datasets instead of lists of male and female names, this package is able to more accurately infer the gender of a name, and it is able to report the probability that a name was male or female. GUIDELINES: This method must be used cautiously and responsibly. Please be sure to see the guidelines and warnings about usage in the 'README' or the package documentation. See Blevins and Mullen (2015) <http://www.digitalhumanities.org/dhq/vol/9/3/000223/000223.html>.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-gender` from the `conda-forge` channel can be achieved by adding `
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-gender` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
