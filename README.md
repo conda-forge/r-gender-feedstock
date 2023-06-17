@@ -1,11 +1,11 @@
-About r-gender
-==============
+About r-gender-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gender-feedstock/blob/main/LICENSE.txt)
 
 Home: https://docs.ropensci.org/gender/, https://github.com/ropensci/gender
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gender-feedstock/blob/main/LICENSE.txt)
 
 Summary: Infers state-recorded gender categories from first names and dates of birth using historical datasets. By using these datasets instead of lists of male and female names, this package is able to more accurately infer the gender of a name, and it is able to report the probability that a name was male or female. GUIDELINES: This method must be used cautiously and responsibly. Please be sure to see the guidelines and warnings about usage in the 'README' or the package documentation. See Blevins and Mullen (2015) <http://www.digitalhumanities.org/dhq/vol/9/3/000223/000223.html>.
 
